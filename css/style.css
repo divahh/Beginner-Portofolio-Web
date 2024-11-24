@@ -1,0 +1,73 @@
+h1, h2, h3{
+    font-family: 'DM Serif Display', serif;
+}
+p{
+    font-family: 'Abel';
+    font-size: large;
+}
+.opening{
+    text-align: center;
+    background-image: url(../images/jumbo.jpg);
+    background-size: cover;
+    padding: 15% 15% 200px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Abel';
+}
+a:hover{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#content1{
+    background-color: rgb(231, 238, 245);
+    text-align: center;
+    float: left;
+    padding-bottom: 27.45px;
+    width: 30%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#content1 img{
+    padding-top: 30px;
+    max-width: 200px;
+    clip-path: circle(40%);
+    object-fit: cover;
+    object-position: center;
+    max-width: 80%;
+}
+#content2{
+    float: right;
+    text-align: left;
+    width: 70%;
+    padding-bottom: 25px;
+    margin-bottom: 5px;
+}
+#content2 img{
+    float: left;
+    width: 5%;
+    margin: 15px;
+}
+#edu, #ex, #skills{
+    padding: 1% 0px 0px;
+}
+#content2 h3{
+    text-decoration: underline rgb(115, 143, 221);
+}
+#content2 p{
+    margin-left: 8.5%;
+    padding-right: 15px;
+    text-align: justify;
+}
+footer{
+    margin-top: 510px;
+    background-color: #fdeabb;
+    padding: 1px 0px 10px;
+    text-align: center;
+}
+table{
+    margin: 0px auto;
+}
